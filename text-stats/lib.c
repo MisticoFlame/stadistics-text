@@ -266,12 +266,8 @@ void setTextColor(int color) {
 // =========================================================
 void imprimirDatosEstudiante(void) {
     setTextColor(14);
-    printf("James Brown - james.brown@goumh.umh.es\n");
+    printf("James Brown \n");
     printf("Estudiante de Ingenieria Informatica de Sistemas\n");
-    printf("- Ejercicio 1:  HECHO\n");
-    printf("- Ejercicio 2 : HECHO\n");
-    printf("- Ejercicio 3 : HECHO\n");
-    printf("- Ejercicio 4 : HECHO\n\n");
     setTextColor(7);
 }
 
@@ -1353,3 +1349,4 @@ TEstadoComando analizarComando(const char *command) {
     setTextColor(7);
     return CMD_ERROR;
 }
+
